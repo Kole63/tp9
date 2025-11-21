@@ -1,0 +1,43 @@
+// Boostrap customization
+$primary: #92817a;
+$success: #f1dabf;
+$danger: #362417;
+$body-bg: #000500;
+$body-color: #fffbff;
+
+$card-border-color: #fffbff;
+$badge-color: #362417;
+
+.mycard-header {
+    color: $danger;
+    @extend .card-header;
+    @extend .bg-primary;
+    @extend .text-center;
+}
+
+.category {
+    @extend .badge;
+    @extend .rounded-pill;
+    @extend .bg-success;
+}
+
+.price {
+    @extend .badge;
+    @extend .rounded-pill;
+    @extend .bg-primary;
+}
+
+// Bord pour les modals
+$modal-content-border-color: $body-color;
+
+// Les tableaux
+$table-color: $body-color;
+
+// Bootstrap
+@import "bootstrap";
+
+// Bootstrap icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// Datatables
+@import "datatables.net-bs5/css/dataTables.bootstrap5.min.css";
