@@ -44,7 +44,10 @@ Lancez les migrations et le peuplement :
 ```bash
 php artisan migrate --seed
 ```
-
+Pour que les images s'affichent
+```bash
+php artisan storage:link
+```
 Installer les modules Node.js et compiler les fichiers CSS et JS :
 
 ```bash
