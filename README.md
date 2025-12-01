@@ -7,7 +7,7 @@ Ceci est le résultat obtenu à l'issue du TP n°9
 Clonez le dépôt en spécifiant un répertoire de destination (ici 'tp9') :
 
 ```bash
-git clone https://gitlab-mi.univ-reims.fr/rabat01/info0304_tp9 tp9
+git clone https://github.com/Kole63/tp9 tp9
 ```
 
 Installez les packages en vous plaçant dans le répertoire créé :
